@@ -1,0 +1,55 @@
+.student-card {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 2px solid black;
+    position: relative;
+    width: 500px;
+    position: relative;
+}
+
+.student-card.male {
+    background-color: lightblue;
+}
+
+.student-card.female {
+    background-color: pink;
+}
+
+.student-card .student-image {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10px; 
+}
+
+.student-image {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+td {
+    padding-right: 20px;
+}
+
+.dataTable table {
+    border-collapse: collapse;
+    width: 450px;
+}
+
+.dataTable td, .dataTable th {
+    padding: 1px;
+}
+
+.dataTable .wide-column {
+    width: 70%;
+}
